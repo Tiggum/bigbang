@@ -20,13 +20,13 @@ istio:
           strategy: anonymous
 
 logging:
-  enabled: true
+  enabled: false
 
 monitoring:
   enabled: true
 
 twistlock:
-  enabled: true
+  enabled: false
   values:
     console:
       persistence:
