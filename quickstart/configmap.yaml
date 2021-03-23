@@ -25,6 +25,9 @@ logging:
 monitoring:
   enabled: true
 
+authservice:
+  enabled: true
+
 twistlock:
   enabled: false
   values:
