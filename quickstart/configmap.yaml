@@ -32,15 +32,3 @@ twistlock:
       persistence:
         size: 5Gi
 
-addons:
-  argocd:
-    enabled: true
-  authservice:
-    enabled: true
-  haproxy:
-    enabled: true
-      git:
-    path: ./chart
-    repo: https://repo1.dso.mil/platform-one/big-bang/apps/developer-tools/haproxy
-    tag: 1.1.2-bb.0
-  values: {}
