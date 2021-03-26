@@ -25,13 +25,15 @@ logging:
 monitoring:
   enabled: true
 
-addons:
-  authservice:
-    enabled: true
-
 twistlock:
   enabled: false
   values:
     console:
       persistence:
         size: 5Gi
+
+addons:
+  authservice:
+    enabled: true
+  haproxy:
+    enabled: true
