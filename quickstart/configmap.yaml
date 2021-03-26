@@ -25,7 +25,7 @@ logging:
 monitoring:
   enabled: true
 
-authservice:
+addons.authservice:
   enabled: true
 
 twistlock:
@@ -34,9 +34,3 @@ twistlock:
     console:
       persistence:
         size: 5Gi
-haproxy:
-    git:
-      path: ./chart
-      repo: https://repo1.dso.mil/platform-one/big-bang/apps/developer-tools/haproxy
-      tag: 1.1.2-bb.0
-    values: {}
