@@ -32,3 +32,8 @@ twistlock:
       persistence:
         size: 5Gi
 
+addons:
+  authservice:
+    enabled: true
+  haproxy:
+    enabled: true
