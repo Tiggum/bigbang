@@ -33,6 +33,8 @@ twistlock:
         size: 5Gi
 
 addons:
+  argocd:
+    enabled: true
   authservice:
     enabled: true
   haproxy:
