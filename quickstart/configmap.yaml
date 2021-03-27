@@ -1,4 +1,4 @@
-hostname: fritz.box
+hostname: bb.fritz.box
 
 flux:
   interval: 1m
