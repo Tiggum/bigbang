@@ -34,6 +34,8 @@ twistlock:
 
 addons:
   authservice:
+    enabled: false
+  gitlab:
     enabled: true
   haproxy:
     enabled: true
